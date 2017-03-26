@@ -1,0 +1,123 @@
+html{
+  background-color: black;
+  font-family: Helvetica;
+  color: seashell;
+}
+
+a{
+  color: white;
+}
+
+.header{
+  position: fixed;
+  display: flex;
+  width: 100%;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: Helvetica;
+  border-bottom: 1px white solid;
+  padding-top: 5px;
+  z-index: 1;
+  height: 60px;
+}
+.header img{
+  padding-left: 10px;
+  height: 60px;
+}
+
+.header ul{
+  text-align: right;
+  width: 100%;
+  padding-right: 20px;
+  justify-content: flex-end;
+  display: inline-flex;
+}
+
+.header li{
+  list-style: none;
+  padding: 0 5px;
+}
+
+.container{
+    width: 80%;
+    padding-top: 65px;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    z-index: 10;
+
+}
+.first{
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height:800px;
+    display: flex;
+    align-items: center;
+}
+
+.text1{
+  background-color: black ;
+  width: 100%;
+}
+
+.specials{
+  padding-top: 20px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+.title{
+  text-align: center;
+
+}
+.special{
+  height: 160px;
+  width: 200px;
+  margin-bottom: 40px;
+}
+
+
+.locations{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.blocks{
+  display: inline-flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+#location{
+  text-align: center;
+}
+
+.block{
+  width: 250px;
+  margin: 10px 20px;
+  text-align: center;
+  background-color: black;
+  height: 200px;
+}
+.footer{
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer h2{
+  font-size: 30px;
+
+}
+.copyright{
+  text-align: left;
+  width: 100%;
+}
